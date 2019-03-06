@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Oauth Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+
+</head>
+<nav class="navbar navbar-light bg-light">
+    <div class="inline">
+        <% if(!currentUser){ %>
+        <a class="btn btn-primary" href="/auth/login">Log In <i class="fas fa-user-alt"></i></a>
+        <a class="btn btn-warning" href="/">Home <i class="fas fa-home"></i></a>
+        <% } else{ %>
+        <a class="btn btn-danger" href="/logout">Logout <i class="fas fa-sign-out-alt"></i></a>
+        <a class="btn btn-dark" href="/profile">Profile <i class="fas fa-user-circle"></i></a>
+        <% } %>
+    </div>
+</nav>
+
+<body>

@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+#btn-google {
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+#btn-facebook {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+#profile-heading {
+    text-align: center;
+    color: coral;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#username,
+#email,
+#gender {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#image {
+    margin-left: 743px;
+    margin-top: 30px;
+}
