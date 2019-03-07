@@ -1,4 +1,4 @@
-# OAuth2.0-Authetication
+# OAuth2.0-Authentication
 
 Login Application using OAuth 2.0 in NodeJs.
 
